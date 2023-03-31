@@ -19,7 +19,7 @@ export default function Formulario(props: FormularioProps) {
             {id ? (
                 <Entrada
                     texto='Codigo'
-                    valor='teste'
+                    valor={id}
                 />
             ) : false}
             <Entrada
